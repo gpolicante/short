@@ -4,6 +4,9 @@ provider "aws" {
 
 module "create_ec2" { 
 source = "github.com/gpolicante/ec2_terra.git"
+
+playbook_link = ""
+token_bitly = ""
 # amiid es para cuando quieres una ami custom 
 amiid  = "" 
 #ostype es como : 
