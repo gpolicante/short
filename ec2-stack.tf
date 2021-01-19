@@ -61,3 +61,11 @@ instanceid = "${module.create_ec2.instance_id}"
 
 
 }
+
+
+module "create-ecr" { 
+source = "github.com/gpolicante/ecr_terra.git"
+imagename = ""
+
+
+}
