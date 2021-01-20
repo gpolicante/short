@@ -24,6 +24,11 @@ provider "aws" {
 # sg = [""]
 # }
 
+
+ #####################################################################
+
+
+
 # module "create-sshkey" { 
 # source = "github.com/gpolicante/keyssh_terra.git"
 # keyname = ""
@@ -31,6 +36,7 @@ provider "aws" {
 
 # }
 
+ #####################################################################
 
 # module "create-lb" { 
 # source = "github.com/gpolicante/lb_terra.git"
@@ -55,6 +61,7 @@ provider "aws" {
 
 # }
 
+ #####################################################################
 
 # module "create-ecr" { 
 # source = "github.com/gpolicante/ecr_terra.git"
@@ -63,6 +70,7 @@ provider "aws" {
 
 # }
 
+ #####################################################################
 
 # module "create-eks" { 
 # source  = "github.com/gpolicante/eks_terra.git"
@@ -77,3 +85,6 @@ provider "aws" {
 # sgcluster = [""]
 
 # }
+
+
+ #####################################################################
