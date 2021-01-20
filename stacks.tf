@@ -5,6 +5,7 @@ provider "aws" {
 # module "create_ec2" { 
 # source = "github.com/gpolicante/ec2_terra.git"
 
+#token_bitly = ""
 # #(optional playbook link)
 # playbook_link = ""
 # token_bitly = ""
