@@ -16,6 +16,11 @@ vim stacks.tf
 
 ## Modulos
 Vamos conhecer os modulos disponiveis, você poderá utilizar 1 ou todos simultaneamente, de acordo com a sua necessidade : 
+- criar ec2 
+- criar chave de ssh
+- criar ecr 
+- criar load balancer e targetgroup 
+- criar cluster de kubernetes 
 
 # create_ec2
 O modulo create_ec2 vai criar uma ou mais instancias da aws para você , vamos agora entender
