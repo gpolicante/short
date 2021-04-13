@@ -11,6 +11,7 @@ provider "aws" {
 # token_bitly = ""
 # #pass ami-id custom or name to SO
 # ami  = "" 
+# ostype = ""
 # instancetype = ""
 # subnet = ["", "", ""]
 # name = ["", "", ""]

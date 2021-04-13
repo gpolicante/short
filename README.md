@@ -36,7 +36,7 @@ O modulo create_ec2 vai criar uma ou mais instancias da aws para você , vamos a
 playbook_link = "https://github.com/gpolicante/playbook_short.git"
 
 
- ami  = "" 
+ ami  = "" or ostype = ""
 # O ami serve para você colocar o ami-id de uma imagem customizada 
 # ou somente o sistema operacional que você queira, 
 # os sistemas operacionais disponiveis sao: 
@@ -46,7 +46,7 @@ playbook_link = "https://github.com/gpolicante/playbook_short.git"
 # Suse
 # caso queira uma imagem customizada e so colocar o ami id e show !!!
 # segue 2 exemplos de caso de uso: 
-ami  = "Ubuntu" 
+ostype  = "Ubuntu" 
 # OR 
 ami  = "ami-12345567654" 
 
